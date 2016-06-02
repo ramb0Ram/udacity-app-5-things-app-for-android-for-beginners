@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Create REST API with CakePHP</string>
+    <string name="option_1">1._Install CakePHP 3</string>
+    <string name="option_2">2._Create and connect to database</string>
+    <string name="option_3">3._Create CRUD</string>
+    <string name="option_4">4._Install API Plugin</string>
+    <string name="option_5">5._Test REST</string>
+    <string name="author">ramb0Ram</string>
+</resources>
