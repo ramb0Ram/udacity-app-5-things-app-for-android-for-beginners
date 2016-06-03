@@ -6,4 +6,6 @@
     <string name="option_4">4._Install API Plugin</string>
     <string name="option_5">5._Test REST</string>
     <string name="author">ramb0Ram</string>
+
+    <string name="title_option_1"></string>
 </resources>

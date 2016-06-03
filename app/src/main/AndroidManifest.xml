@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Install"></activity>
+        <activity android:name=".Install" />
+        <activity android:name=".DataBase" />
+        <activity android:name=".CreateCrud" />
+        <activity android:name=".Plugin" />
+        <activity android:name=".TestApi"></activity>
     </application>
 
 </manifest>

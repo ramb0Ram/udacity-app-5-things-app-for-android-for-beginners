@@ -7,11 +7,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.udacityprojectprepfinal.Install">
+    tools:context="com.example.android.udacityprojectprepfinal.DataBase">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/option_1"/>
+        android:text="@string/option_2"/>
 
 </RelativeLayout>

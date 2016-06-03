@@ -25,31 +25,37 @@
             android:layout_height="wrap_content"
             android:text="@string/option_1"
             style="@style/MenuOptions"
+            android:onClick="redirectToInstall"
+            android:id="@+id/btnInstall"
             />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_2"
-            style="@style/MenuOptions"/>
+            style="@style/MenuOptions"
+            android:onClick="redirectToDataBase"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_3"
-            style="@style/MenuOptions"/>
+            style="@style/MenuOptions"
+            android:onClick="redirectToCreateCrud"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_4"
-            style="@style/MenuOptions"/>
+            style="@style/MenuOptions"
+            android:onClick="redirectToPlugin"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_5"
-            style="@style/MenuOptions"/>
+            style="@style/MenuOptions"
+            android:onClick="redirectToTestApi"/>
 
         <TextView
             android:layout_width="wrap_content"
