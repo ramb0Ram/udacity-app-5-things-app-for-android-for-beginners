@@ -1,6 +1,7 @@
 package com.example.android.udacityprojectprepfinal;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -65,6 +66,15 @@ public class MainActivity extends AppCompatActivity {
      */
     public void redirectToTestApi(View view) {
         Intent intent = new Intent(this, TestApi.class);
+        startActivity(intent);
+    }
+
+    /**
+     *
+     * @param view
+     */
+    public void redirectToGitHub(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ramb0Ram/udacity-app-5-things-app-for-android-for-beginners"));
         startActivity(intent);
     }
 

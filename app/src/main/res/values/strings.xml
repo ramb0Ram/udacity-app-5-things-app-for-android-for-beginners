@@ -1,11 +1,31 @@
 <resources>
     <string name="app_name">Create REST API with CakePHP</string>
-    <string name="option_1">1._Install CakePHP 3</string>
-    <string name="option_2">2._Create and connect to database</string>
-    <string name="option_3">3._Create CRUD</string>
-    <string name="option_4">4._Install API Plugin</string>
-    <string name="option_5">5._Test REST</string>
+    <string name="option_1">Install CakePHP 3</string>
+    <string name="option_2">Create and connect to database</string>
+    <string name="option_3">Create CRUD</string>
+    <string name="option_4">Install API Plugin</string>
+    <string name="option_5">Test REST API</string>
     <string name="author">ramb0Ram</string>
 
-    <string name="title_option_1"></string>
+    <string name="url_github">GitHub Project</string>
+
+    <!-- 1 -->
+    <string name="requirements">Requirements</string>
+    <string name="requirements_text">
+        HTTP Server, PHP 5.5.9 or greater (including PHP 7), MySQL (5.1.10 or greater), Composer
+    </string>
+
+    <string name="install_cake">How install CakePHP</string>
+    <string name="install_cakek_text">composer self-update  &amp;&amp; composer create-project --prefer-dist cakephp/app my_app_name</string>
+    <string name="move_to_project">cd my_app_name</string>
+
+    <string name="permissions">Permissions</string>
+    <string name="permission_text_1">HTTPDUSER=`ps aux | grep -E \'[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx\' | grep -v root | head -1 | cut -d\  -f1`</string>
+    <string name="permission_text_2">setfacl -R -m u:${HTTPDUSER}:rwx tmp</string>
+    <string name="permission_text_3">setfacl -R -d -m u:${HTTPDUSER}:rwx tmp</string>
+    <string name="permission_text_4">setfacl -R -m u:${HTTPDUSER}:rwx logs</string>
+    <string name="permission_text_5">setfacl -R -d -m u:${HTTPDUSER}:rwx logs</string>
+
+    <string name="fire_it_up">Fire It Up</string>
+    <string name="fire_it_up_text">Alright, let’s see CakePHP in action. Depending on which setup you used, you should point your browser to http://example.com/ or http://localhost:8765/.</string>
 </resources>

@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.udacityprojectprepfinal.Install">
+    android:layout_height="wrap_content">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/option_1"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.udacityprojectprepfinal.Install">
 
-</RelativeLayout>
+        <TextView
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_1" />
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/requirements" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/requirements_text" />
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/install_cake" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/install_cakek_text" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/move_to_project" />
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/permissions" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/permission_text_1" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/permission_text_2" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/permission_text_3" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/permission_text_4" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/permission_text_5" />
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/fire_it_up" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/fire_it_up_text" />
+
+    </LinearLayout>
+</ScrollView>
