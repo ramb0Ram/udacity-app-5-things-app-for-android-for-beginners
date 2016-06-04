@@ -1,16 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.udacityprojectprepfinal.Plugin">
+    android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/option_4"/>
-</RelativeLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.udacityprojectprepfinal.Plugin">
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/option_4" />
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/add_plugin" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/all_plugin_text_1" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/all_plugin_text_2" />
+
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/enable_api" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/enable_api_text_1" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/enable_api_text_2" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/enable_api_text_3" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/enable_api_text_4" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/enable_api_text_5" />
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/enable_api_text_6" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

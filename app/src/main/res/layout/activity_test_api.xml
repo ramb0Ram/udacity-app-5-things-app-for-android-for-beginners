@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.udacityprojectprepfinal.TestApi">
+    android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/option_5"/>
-</RelativeLayout>
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.udacityprojectprepfinal.TestApi"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/option_5" />
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/accessing_api"/>
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/accessing_api_text_1"/>
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="@string/more_info"/>
+
+        <TextView
+            style="@style/Content"
+            android:text="@string/more_info_text"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

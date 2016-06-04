@@ -36,13 +36,6 @@
             style="@style/MenuOptions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="redirectToCreateCrud"
-            android:text="@string/option_3" />
-
-        <Button
-            style="@style/MenuOptions"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:onClick="redirectToPlugin"
             android:text="@string/option_4" />
 

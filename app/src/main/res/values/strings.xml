@@ -42,4 +42,23 @@
     <string name="connect_to_database_text_4">username: root</string>
     <string name="connect_to_database_text_5">password: your_password</string>
     <string name="connect_to_database_text_6">database: udacity-rest-api</string>
+
+    <string name="add_plugin">Add Plugin</string>
+    <string name="all_plugin_text_1">composer require friendsofcake/crud:~4.0</string>
+    <string name="all_plugin_text_2">bin/cake plugin load Crud</string>
+
+    <string name="enable_api">Enable API</string>
+    <string name="enable_api_text_1">Expose one or more controllers. Open config/routes.php file and add:</string>
+    <string name="enable_api_text_2">Router::scope(\'/\', function ($routes) { $routes->resources(\'Cocktails\'); } </string>
+    <string name="enable_api_text_3">Configure the API. Open src/Controller/AppController.php file and add in AppController:</string>
+    <string name="enable_api_text_4">use \Crud\Controller\ControllerTrait;</string>
+    <string name="enable_api_text_5">Optionally enable extensions. OPen onfig/routes.php and add:</string>
+    <string name="enable_api_text_6">Router::extensions([\'json\', \'xml\']);</string>
+
+    <string name="accessing_api">Accessing API Resources</string>
+    <string name="accessing_api_text_1">Visit http://your_app/cocktails.json</string>
+
+    <string name="more_info">More Info</string>
+    <string name="more_info_text">http://www.bravo-kernel.com</string>
+
 </resources>
