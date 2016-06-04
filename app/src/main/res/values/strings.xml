@@ -28,4 +28,18 @@
 
     <string name="fire_it_up">Fire It Up</string>
     <string name="fire_it_up_text">Alright, let’s see CakePHP in action. Depending on which setup you used, you should point your browser to http://example.com/ or http://localhost:8765/.</string>
+
+    <string name="create_database">Create Database and Migrate Schema</string>
+    <string name="create_database_text_1">mysql -u root -p</string>
+    <string name="create_database_text_2">create database udacity-rest-api</string>
+    <string name="create_database_text_3">Download this CakePHP database migration file to your config/Migrations directory: https://github.com/bravo-kernel/application-examples/blob/master/blog-how-to-use-a-cakephp3-rest-api/config/Migrations/20150411161731_initial.php</string>
+    <string name="create_database_text_4">bin/cake migrations migrate</string>
+
+    <string name="connect_to_database">Connect to Database</string>
+    <string name="connect_to_database_text_1">The configuration should be pretty straightforward: just replace the values in the Datasources.default array in the config/app.php file with those that apply to your setup. </string>
+    <string name="connect_to_database_text_2">Where :</string>
+    <string name="connect_to_database_text_3">driver: Cake\Database\Driver\Mysql</string>
+    <string name="connect_to_database_text_4">username: root</string>
+    <string name="connect_to_database_text_5">password: your_password</string>
+    <string name="connect_to_database_text_6">database: udacity-rest-api</string>
 </resources>
